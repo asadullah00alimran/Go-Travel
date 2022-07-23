@@ -17,6 +17,82 @@
 </head>
 
 <body>
+    <!-- header section starts  -->
+    <section class="header">
+
+        <a href="home.php" class="logo">GoTravel</a>
+        <nav class="navbar">
+            <a href="home.php">home</a>
+            <a href="about.php">about</a>
+            <a href="package.php">package</a>
+            <a href="book.php">book</a>
+        </nav>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+    </section>
+
+    <!-- header section ends -->
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide" style="background:url(images/s-4.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel arround the world</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/s-5.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel arround the world</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background:url(images/s-6.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel arround the world</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(images/home-slide-1.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>travel arround the world</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide slide" style="background:url(images/home-slide-2.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>discover the new places</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide" style="background:url(images/home-slide-3.jpg) no-repeat">
+                    <div class="content">
+                    <span>explore, discover, travel</span>
+                    <h3>make your tour worthwhile</h3>
+                    <a href="package.php" class="btn">discover more</a>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
 
 
 
